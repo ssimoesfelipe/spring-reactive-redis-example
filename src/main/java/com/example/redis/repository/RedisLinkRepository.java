@@ -1,5 +1,7 @@
-package com.example.redis;
+package com.example.redis.repository;
 
+import com.example.redis.model.Link;
+import com.example.redis.repository.LinkRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.redis.core.ReactiveRedisOperations;
 import org.springframework.stereotype.Repository;

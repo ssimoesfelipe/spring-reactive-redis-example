@@ -1,5 +1,7 @@
-package com.example.redis;
+package com.example.redis.service;
 
+import com.example.redis.repository.LinkRepository;
+import com.example.redis.model.Link;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.stereotype.Service;

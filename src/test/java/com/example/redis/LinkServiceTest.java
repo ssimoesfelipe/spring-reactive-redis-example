@@ -1,5 +1,8 @@
 package com.example.redis;
 
+import com.example.redis.model.Link;
+import com.example.redis.repository.LinkRepository;
+import com.example.redis.service.LinkService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

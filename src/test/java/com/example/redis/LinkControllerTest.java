@@ -1,5 +1,8 @@
 package com.example.redis;
 
+import com.example.redis.api.LinkController;
+import com.example.redis.model.Link;
+import com.example.redis.service.LinkService;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

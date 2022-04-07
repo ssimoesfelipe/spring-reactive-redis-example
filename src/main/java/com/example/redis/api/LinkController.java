@@ -1,5 +1,7 @@
-package com.example.redis;
+package com.example.redis.api;
 
+import com.example.redis.model.Link;
+import com.example.redis.service.LinkService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
